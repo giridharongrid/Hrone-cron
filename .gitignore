@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Java / tooling
+hs_err_pid*
+
+# If you generate local environment files, ignore them
+*.env
+
+# Keep source and configuration tracked
+!src/**
+!settings.gradle
+!build.gradle
+!gradlew
+!gradlew.bat
+
